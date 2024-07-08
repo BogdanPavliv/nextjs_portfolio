@@ -7,7 +7,7 @@ import Social from '@/components/social'
 
 const Footer = () => {
   return (
-    <section className='bg-secondary py-8'>
+    <section className='bg-secondary py-8 overflow-hidden'>
       <div className='container flex flex-col items-center justify-between gap-4 xl:flex-row'>
         <p className='text-xl font-semibold uppercase'>
           {' '}

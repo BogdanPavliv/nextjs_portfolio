@@ -5,7 +5,7 @@ import Photo from '@/components/photo'
 
 const Hero = () => {
   return (
-    <section className='w-f pt-40'>
+    <section className='w-f pt-40 overflow-hidden'>
       <div className='container mx-auto h-full'>
         <div className='flex flex-col items-center justify-between gap-10 xl:flex-row xl:pt-8'>
           {/* text */}
