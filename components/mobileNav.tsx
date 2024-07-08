@@ -11,7 +11,7 @@ export const menu = [
   },
   {
     name: 'work',
-    href: '/#works'
+    href: '/#work'
   },
   {
     name: 'FAQ',
@@ -19,7 +19,7 @@ export const menu = [
   },
   {
     name: 'Conact',
-    href: '/#contact'
+    href: '/#Contact'
   }
 ]
 
