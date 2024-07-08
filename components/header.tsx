@@ -7,7 +7,7 @@ import MobileNav from '@/components/mobileNav'
 
 const Header = () => {
   return (
-    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8'>
+    <header className='fixed z-50 w-full bg-primary py-6 xl:py-8 overflow-hidden'>
       <div className='container mx-auto flex items-center justify-between'>
         {/* logo */}
         <Link to='/' spy={true} smooth={true} className='cursor-pointer'>

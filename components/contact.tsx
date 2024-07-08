@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import FadeIn from '@/lib/variants'
 const Contact = () => {
   return (
-    <section id='Contact' className='bg-[url(/contact/contact-bg.png)] py-28'>
+    <section id='Contact' className='bg-[url(/contact/contact-bg.png)] py-28 overflow-hidden'>
       <div className='px6 container flex flex-col justify-between py-12 text-lg md:flex-row'>
         <motion.div
           variants={FadeIn('right', 0.2)}

@@ -5,7 +5,7 @@ import AnimatedCounter from '../lib/animatedCounter'
 
 const Services = () => {
   return (
-    <section id='services' className='z-30 -translate-y-1 bg-secondary'>
+    <section id='services' className='z-30 -translate-y-1 bg-secondary overflow-hidden'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
