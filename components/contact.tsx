@@ -9,22 +9,14 @@ const Contact = () => {
   return (
     <section id='Contact' className='bg-[url(/contact/contact-bg.png)] py-28 overflow-hidden'>
       <div className='px6 container flex flex-col justify-between py-12 text-lg md:flex-row'>
-        <motion.div
-          variants={FadeIn('right', 0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{ once: true, amount: 0.8 }}
+        <div
           className='mb-12 mr-6 flex items-center py-6'
         >
           <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
             let&apos;s work <br /> <span className='under-line'>together</span>
           </h1>
-        </motion.div>
-        <motion.form
-          variants={FadeIn('left', 0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{ once: true, amount: 0.8 }}
+        </div>
+        <form
           className='flex max-w-3xl flex-1 flex-col items-start gap-y-8 rounded-md bg-secondary/80 p-10'
         >
           <input
@@ -48,7 +40,7 @@ const Contact = () => {
             <p className='text-md capitalize'> Send Messsage</p>
             <Send className='h-5 w-5' />
           </button>
-        </motion.form>
+        </form>
       </div>
     </section>
   )
