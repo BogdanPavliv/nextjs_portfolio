@@ -36,7 +36,7 @@ export const projectsData = [
     link: "https://tubular-valkyrie-d3ecab.netlify.app"
   },
   {
-    id: 4,
+    id: 5,
     image: '/projects/05.png',
     category: 'Front-end',
     title: 'Barbershop website',
@@ -45,7 +45,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/barbershop/"
   },
   {
-    id: 4,
+    id: 6,
     image: '/projects/06.png',
     category: 'Front-end',
     title: 'Your meal food delivery website',
@@ -54,7 +54,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/your-meal/"
   },
   {
-    id: 4,
+    id: 7,
     image: '/projects/07.png',
     category: 'Front-end',
     title: 'Law company My city lawyer',
@@ -63,7 +63,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/my-city-lawyer/"
   },
   {
-    id: 4,
+    id: 8,
     image: '/projects/08.png',
     category: 'Front-end',
     title: 'Residential complex Loft house website',
@@ -72,7 +72,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/loft-house/"
   },
   {
-    id: 4,
+    id: 9,
     image: '/projects/09.png',
     category: 'Front-end',
     title: 'Panto furniture store website',
@@ -81,7 +81,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/panto-furniture-store/"
   },
   {
-    id: 4,
+    id: 10,
     image: '/projects/10.png',
     category: 'Front-end',
     title: 'Personal blog website',
@@ -90,7 +90,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/personal-blog/"
   },
   {
-    id: 4,
+    id: 11,
     image: '/projects/11.png',
     category: 'Front-end',
     title: 'Jewelry company Luxtrader website',
@@ -99,7 +99,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/luxtrader/"
   },
   {
-    id: 4,
+    id: 12,
     image: '/projects/12.png',
     category: 'Front-end',
     title: 'Barbershop premium website',
@@ -108,7 +108,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/barbershop-premium/"
   },
   {
-    id: 4,
+    id: 13,
     image: '/projects/13.png',
     category: 'Front-end',
     title: 'Fitness company website',
@@ -117,13 +117,22 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/fitness/"
   },
   {
-    id: 4,
+    id: 14,
     image: '/projects/14.png',
     category: 'Front-end',
-    title: ' Marketing company website',
+    title: 'Marketing company website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem',
     link: "https://bogdanpavliv.github.io/growfy/"
+  },
+  {
+    id: 15,
+    image: '/projects/15.png',
+    category: 'Front-end',
+    title: 'California store website',
+    description:
+      'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',
+    link: "https://bogdanpavliv.github.io/california/"
   }
 ]
 
