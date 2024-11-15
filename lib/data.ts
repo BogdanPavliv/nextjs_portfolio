@@ -1,6 +1,15 @@
 export const projectsData = [
   {
     id: 1,
+    image: '/projects/16.png',
+    category: 'Front-end',
+    title: 'Pixelmagnet company website',
+    description:
+      'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, swiper slider, framer-motion, dark mode',
+    link: "https://tangerine-maamoul-d7f906.netlify.app"
+  },
+  {
+    id: 2,
     image: '/projects/01.png',
     category: 'Front-end',
     title: 'Travel company website',
@@ -9,7 +18,7 @@ export const projectsData = [
     link: "https://benevolent-torte-07a0c5.netlify.app"
   },
   {
-    id: 2,
+    id: 3,
     image: '/projects/02.png',
     category: 'Front-end',
     title: 'Cars autotrader website',
@@ -18,7 +27,7 @@ export const projectsData = [
     link: "https://graceful-crostata-e384d4.netlify.app"
   },
   {
-    id: 3,
+    id: 4,
     image: '/projects/03.png',
     category: 'Front-end',
     title: 'Happy coaching website',
@@ -27,7 +36,7 @@ export const projectsData = [
     link: "https://fascinating-cassata-b8bf21.netlify.app"
   },
   {
-    id: 4,
+    id: 5,
     image: '/projects/04.png',
     category: 'Front-end',
     title: 'Rise Creative Design Agency website',
@@ -36,7 +45,7 @@ export const projectsData = [
     link: "https://tubular-valkyrie-d3ecab.netlify.app"
   },
   {
-    id: 5,
+    id: 6,
     image: '/projects/05.png',
     category: 'Front-end',
     title: 'Barbershop website',
@@ -45,7 +54,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/barbershop/"
   },
   {
-    id: 6,
+    id: 7,
     image: '/projects/06.png',
     category: 'Front-end',
     title: 'Your meal food delivery website',
@@ -54,7 +63,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/your-meal/"
   },
   {
-    id: 7,
+    id: 8,
     image: '/projects/07.png',
     category: 'Front-end',
     title: 'Law company My city lawyer',
@@ -63,7 +72,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/my-city-lawyer/"
   },
   {
-    id: 8,
+    id: 9,
     image: '/projects/08.png',
     category: 'Front-end',
     title: 'Residential complex Loft house website',
@@ -72,7 +81,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/loft-house/"
   },
   {
-    id: 9,
+    id: 10,
     image: '/projects/09.png',
     category: 'Front-end',
     title: 'Panto furniture store website',
@@ -81,7 +90,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/panto-furniture-store/"
   },
   {
-    id: 10,
+    id: 11,
     image: '/projects/10.png',
     category: 'Front-end',
     title: 'Personal blog website',
@@ -90,7 +99,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/personal-blog/"
   },
   {
-    id: 11,
+    id: 12,
     image: '/projects/11.png',
     category: 'Front-end',
     title: 'Jewelry company Luxtrader website',
@@ -99,7 +108,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/luxtrader/"
   },
   {
-    id: 12,
+    id: 13,
     image: '/projects/12.png',
     category: 'Front-end',
     title: 'Barbershop premium website',
@@ -108,7 +117,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/barbershop-premium/"
   },
   {
-    id: 13,
+    id: 14,
     image: '/projects/13.png',
     category: 'Front-end',
     title: 'Fitness company website',
@@ -117,7 +126,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/fitness/"
   },
   {
-    id: 14,
+    id: 15,
     image: '/projects/14.png',
     category: 'Front-end',
     title: 'Marketing company website',
@@ -126,7 +135,7 @@ export const projectsData = [
     link: "https://bogdanpavliv.github.io/growfy/"
   },
   {
-    id: 15,
+    id: 16,
     image: '/projects/15.png',
     category: 'Front-end',
     title: 'California store website',
