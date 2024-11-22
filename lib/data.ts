@@ -6,7 +6,7 @@ export const projectsData = [
     title: 'Pixelmagnet company website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, swiper slider, framer-motion, dark mode',
-    link: "https://tangerine-maamoul-d7f906.netlify.app"
+    link: "https://pixelmagnet-nextjs.netlify.app"
   },
   {
     id: 2,
@@ -19,12 +19,21 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: '/projects/17.png',
+    category: 'Front-end',
+    title: 'Bank website',
+    description:
+      'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
+    link: "https://bank-hotel-lviv.netlify.app"
+  },
+  {
+    id: 3,
     image: '/projects/02.png',
     category: 'Front-end',
     title: 'Cars autotrader website',
     description:
       'Figma to react, sass, bem, accordeon, google maps, CountUp',
-    link: "https://graceful-crostata-e384d4.netlify.app"
+    link: "https://cars-classic-autotrader.netlify.app"
   },
   {
     id: 4,
@@ -33,7 +42,7 @@ export const projectsData = [
     title: 'Happy coaching website',
     description:
       'Figma to react, sass, typescript, redux, bem, accordeon, google maps, framer-motion',
-    link: "https://fascinating-cassata-b8bf21.netlify.app"
+    link: "https://happy-coaching-typescript.netlify.app"
   },
   {
     id: 5,
@@ -42,7 +51,7 @@ export const projectsData = [
     title: 'Rise Creative Design Agency website',
     description:
       'Figma to react, sass, typescript, redux, bem, accordeon, google maps, slick slider, swiper slider, framer-motion',
-    link: "https://tubular-valkyrie-d3ecab.netlify.app"
+    link: "https://rise-creative.netlify.app"
   },
   {
     id: 6,
