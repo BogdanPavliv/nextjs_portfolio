@@ -15,13 +15,13 @@ export const projectsData = [
     title: 'Travel company website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, framer-motion',
-    link: "https://benevolent-torte-07a0c5.netlify.app"
+    link: "https://tvl-nextjs.netlify.app"
   },
   {
     id: 3,
     image: '/projects/17.png',
     category: 'Front-end',
-    title: 'Bank website',
+    title: 'Bank hotel website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
     link: "https://bank-hotel-lviv.netlify.app"
