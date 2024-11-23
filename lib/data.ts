@@ -26,7 +26,6 @@ export const projectsData = [
       'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
     link: "https://bank-hotel-lviv.netlify.app"
   },
-  ,
   {
     id: 4,
     image: '/projects/04.png',
