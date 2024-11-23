@@ -26,8 +26,18 @@ export const projectsData = [
       'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
     link: "https://bank-hotel-lviv.netlify.app"
   },
+  ,
   {
-    id: 3,
+    id: 4,
+    image: '/projects/18.png',
+    category: 'Front-end',
+    title: 'Beauty salon Serene website',
+    description:
+      'Figma to react, sass, bem, accordeon, google maps, CountUp',
+    link: "https://beauty-salon-serene.netlify.app"
+  },
+  {
+    id: 5,
     image: '/projects/02.png',
     category: 'Front-end',
     title: 'Cars autotrader website',
@@ -61,6 +71,24 @@ export const projectsData = [
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, phpmailer,javascript, php, flex boxes, grid, bem',
     link: "https://bogdanpavliv.github.io/barbershop/"
+  },
+  {
+    id: 6,
+    image: '/projects/19.png',
+    category: 'Front-end',
+    title: 'Internet store wear website',
+    description:
+      'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',
+    link: "https://bogdanpavliv.github.io/internet-store-wear/"
+  },
+  {
+    id: 7,
+    image: '/projects/20.png',
+    category: 'Front-end',
+    title: 'Mettex company website',
+    description:
+      'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',
+    link: "https://bogdanpavliv.github.io/mettex-company/"
   },
   {
     id: 7,
