@@ -1,8 +1,19 @@
-export const projectsData = [
+export type Category = 'All' | 'Landing-page' | 'Online-store' | 'Multi-page' | 'Others';
+
+interface ProjectTypes {
+  id: number;
+  image: string;
+  category: Category;
+  title: string;
+  description: string;
+  link: string;
+}
+
+export const projectsData: ProjectTypes[] = [
   {
     id: 1,
     image: '/projects/01.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Pixelmagnet company website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, swiper slider, framer-motion, dark mode',
@@ -11,7 +22,7 @@ export const projectsData = [
   {
     id: 2,
     image: '/projects/02.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Travel company website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, framer-motion',
@@ -20,7 +31,7 @@ export const projectsData = [
   {
     id: 3,
     image: '/projects/03.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Bank hotel website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
@@ -29,7 +40,7 @@ export const projectsData = [
   {
     id: 4,
     image: '/projects/04.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Beauty salon Serene website',
     description:
       'Figma to react, sass, bem, accordeon, google maps, CountUp',
@@ -38,7 +49,7 @@ export const projectsData = [
   {
     id: 5,
     image: '/projects/05.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Cars autotrader website',
     description:
       'Figma to react, sass, bem, accordeon, google maps, CountUp',
@@ -47,7 +58,7 @@ export const projectsData = [
   {
     id: 6,
     image: '/projects/06.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Happy coaching website',
     description:
       'Figma to react, sass, typescript, redux, bem, accordeon, google maps, framer-motion',
@@ -56,7 +67,7 @@ export const projectsData = [
   {
     id: 7,
     image: '/projects/07.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Rise Creative Design Agency website',
     description:
       'Figma to react, sass, typescript, redux, bem, accordeon, google maps, slick slider, swiper slider, framer-motion',
@@ -65,7 +76,7 @@ export const projectsData = [
   {
     id: 8,
     image: '/projects/08.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Barbershop website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, phpmailer,javascript, php, flex boxes, grid, bem',
@@ -74,7 +85,7 @@ export const projectsData = [
   {
     id: 9,
     image: '/projects/09.png',
-    category: 'Front-end',
+    category: 'Online-store',
     title: 'Internet store wear website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',
@@ -83,7 +94,7 @@ export const projectsData = [
   {
     id: 10,
     image: '/projects/10.png',
-    category: 'Front-end',
+    category: 'Others',
     title: 'Mettex company website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',
@@ -92,7 +103,7 @@ export const projectsData = [
   {
     id: 11,
     image: '/projects/11.png',
-    category: 'Front-end',
+    category: 'Others',
     title: 'Your meal food delivery website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem, cart',
@@ -101,7 +112,7 @@ export const projectsData = [
   {
     id: 12,
     image: '/projects/12.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Law company My city lawyer',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, phpmailer,javascript, php, flex boxes, grid, bem',
@@ -110,7 +121,7 @@ export const projectsData = [
   {
     id: 13,
     image: '/projects/13.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Residential complex Loft house website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, phpmailer,javascript, php, flex boxes, grid, bem',
@@ -119,7 +130,7 @@ export const projectsData = [
   {
     id: 14,
     image: '/projects/14.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Panto furniture store website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem',
@@ -128,7 +139,7 @@ export const projectsData = [
   {
     id: 15,
     image: '/projects/15.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Personal blog website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem',
@@ -137,7 +148,7 @@ export const projectsData = [
   {
     id: 16,
     image: '/projects/16.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Jewelery company Luxtrader website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem',
@@ -146,7 +157,7 @@ export const projectsData = [
   {
     id: 17,
     image: '/projects/17.png',
-    category: 'Front-end',
+    category: 'Multi-page',
     title: 'Barbershop premium website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem, bootstrap',
@@ -155,7 +166,7 @@ export const projectsData = [
   {
     id: 18,
     image: '/projects/18.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Fitness company website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem, bootstrap',
@@ -164,7 +175,7 @@ export const projectsData = [
   {
     id: 19,
     image: '/projects/19.png',
-    category: 'Front-end',
+    category: 'Landing-page',
     title: 'Marketing company website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, php, flex boxes, grid, bem',
@@ -173,7 +184,7 @@ export const projectsData = [
   {
     id: 20,
     image: '/projects/20.png',
-    category: 'Front-end',
+    category: 'Online-store',
     title: 'California store website',
     description:
       'git, gulp, npm, figma, optimized graphics, svg where it is possible, html, scss, javascript, flex boxes, grid, bem',

@@ -1,8 +1,23 @@
-import { projectsData } from '@/lib/data'
-import React from 'react'
-import { Project } from '@/components/project'
+"use client"
+
+import { projectsData } from '@/lib/data';
+import React, { useState } from 'react';
+import FilterComponent from "../components/ui/filter/filterComponent";
+import { Category } from "../lib/data"
+import { Project } from '@/components/project';
 
 const Work = () => {
+
+  const [filteredCategory, setFilteredCategory] = useState<Category>('All');
+
+  const handleFilterChange = (category: Category) => {
+    setFilteredCategory(category);
+  };
+
+  const filteredProjects = filteredCategory === 'All' 
+    ? projectsData 
+    : projectsData.filter(project => project.category === filteredCategory);
+
   return (
     <section id='work' className='bg-primary overflow-hidden'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
@@ -11,8 +26,12 @@ const Work = () => {
           <br />
           <span className='under-line'>projects</span>
         </h1>
+        <FilterComponent
+         onFilterChange={handleFilterChange} 
+         categories={['All', 'Landing-page', 'Online-store', 'Multi-page', 'Others']}
+        />
         <div className='flex flex-col gap-[200px] py-4 xl:gap-[150px]'>
-          {projectsData.map((project, i) => (
+          {filteredProjects.map((project, i) => (
             <React.Fragment key={i}>
               <Project {...project} />
             </React.Fragment>
