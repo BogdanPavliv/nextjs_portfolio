@@ -12,7 +12,7 @@ interface ProjectTypes {
 export const projectsData: ProjectTypes[] = [
   {
     id: 1,
-    image: '/projects/01.png',
+    image: '/projects/pixelmagnet.png',
     category: 'Multi-page',
     title: 'Pixelmagnet company website',
     description:
@@ -21,25 +21,34 @@ export const projectsData: ProjectTypes[] = [
   },
   {
     id: 2,
-    image: '/projects/02.png',
+    image: '/projects/luxtrip.png',
     category: 'Multi-page',
+    title: 'Luxtrip travel company website',
+    description:
+      'Figma to react/nextjs, typescript, redux, sass, bem, swiper slider, formik, yup, react datepicker',
+    link: "https://luxtrip-nextjs.netlify.app"
+  },
+  {
+    id: 3,
+    image: '/projects/tvl.png',
+    category: 'Landing-page',
     title: 'Travel company website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, framer-motion',
     link: "https://tvl-nextjs.netlify.app"
   },
   {
-    id: 3,
-    image: '/projects/03.png',
-    category: 'Landing-page',
+    id: 4,
+    image: '/projects/bank-hotel.png',
+    category: 'Multi-page',
     title: 'Bank hotel website',
     description:
       'Figma to react/nextjs, typescript, redux, sass, bem, framer-motion',
     link: "https://bank-hotel-lviv.netlify.app"
   },
   {
-    id: 4,
-    image: '/projects/04.png',
+    id: 5,
+    image: '/projects/beauty-salon-serene.png',
     category: 'Multi-page',
     title: 'Beauty salon Serene website',
     description:
@@ -47,8 +56,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://beauty-salon-serene.netlify.app"
   },
   {
-    id: 5,
-    image: '/projects/05.png',
+    id: 6,
+    image: '/projects/cars-classic-autotrader.png',
     category: 'Multi-page',
     title: 'Cars autotrader website',
     description:
@@ -56,8 +65,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://cars-classic-autotrader.netlify.app"
   },
   {
-    id: 6,
-    image: '/projects/06.png',
+    id: 7,
+    image: '/projects/happy-coaching.png',
     category: 'Multi-page',
     title: 'Happy coaching website',
     description:
@@ -65,8 +74,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://happy-coaching-typescript.netlify.app"
   },
   {
-    id: 7,
-    image: '/projects/07.png',
+    id: 8,
+    image: '/projects/rise-creative.png',
     category: 'Landing-page',
     title: 'Rise Creative Design Agency website',
     description:
@@ -74,8 +83,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://rise-creative.netlify.app"
   },
   {
-    id: 8,
-    image: '/projects/08.png',
+    id: 9,
+    image: '/projects/barbershop.png',
     category: 'Landing-page',
     title: 'Barbershop website',
     description:
@@ -83,8 +92,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/barbershop/"
   },
   {
-    id: 9,
-    image: '/projects/09.png',
+    id: 10,
+    image: '/projects/internet-store-wear.png',
     category: 'Online-store',
     title: 'Internet store wear website',
     description:
@@ -92,8 +101,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/internet-store-wear/"
   },
   {
-    id: 10,
-    image: '/projects/10.png',
+    id: 11,
+    image: '/projects/mettex-company.png',
     category: 'Others',
     title: 'Mettex company website',
     description:
@@ -101,8 +110,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/mettex-company/"
   },
   {
-    id: 11,
-    image: '/projects/11.png',
+    id: 12,
+    image: '/projects/your-meal.png',
     category: 'Others',
     title: 'Your meal food delivery website',
     description:
@@ -110,8 +119,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/your-meal/"
   },
   {
-    id: 12,
-    image: '/projects/12.png',
+    id: 13,
+    image: '/projects/my-city-lawyer.png',
     category: 'Multi-page',
     title: 'Law company My city lawyer',
     description:
@@ -119,8 +128,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/my-city-lawyer/"
   },
   {
-    id: 13,
-    image: '/projects/13.png',
+    id: 14,
+    image: '/projects/loft-house.png',
     category: 'Landing-page',
     title: 'Residential complex Loft house website',
     description:
@@ -128,8 +137,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/loft-house/"
   },
   {
-    id: 14,
-    image: '/projects/14.png',
+    id: 15,
+    image: '/projects/panto-furniture-store.png',
     category: 'Landing-page',
     title: 'Panto furniture store website',
     description:
@@ -137,8 +146,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/panto-furniture-store/"
   },
   {
-    id: 15,
-    image: '/projects/15.png',
+    id: 16,
+    image: '/projects/personal-blog.png',
     category: 'Multi-page',
     title: 'Personal blog website',
     description:
@@ -146,8 +155,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/personal-blog/"
   },
   {
-    id: 16,
-    image: '/projects/16.png',
+    id: 17,
+    image: '/projects/luxtrader.png',
     category: 'Landing-page',
     title: 'Jewelery company Luxtrader website',
     description:
@@ -155,8 +164,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/luxtrader/"
   },
   {
-    id: 17,
-    image: '/projects/17.png',
+    id: 18,
+    image: '/projects/barbershop-premium.png',
     category: 'Multi-page',
     title: 'Barbershop premium website',
     description:
@@ -164,8 +173,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/barbershop-premium/"
   },
   {
-    id: 18,
-    image: '/projects/18.png',
+    id: 19,
+    image: '/projects/fitness.png',
     category: 'Landing-page',
     title: 'Fitness company website',
     description:
@@ -173,8 +182,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/fitness/"
   },
   {
-    id: 19,
-    image: '/projects/19.png',
+    id: 20,
+    image: '/projects/growfy.png',
     category: 'Landing-page',
     title: 'Marketing company website',
     description:
@@ -182,8 +191,8 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/growfy/"
   },
   {
-    id: 20,
-    image: '/projects/20.png',
+    id: 21,
+    image: '/projects/california.png',
     category: 'Online-store',
     title: 'California store website',
     description:
