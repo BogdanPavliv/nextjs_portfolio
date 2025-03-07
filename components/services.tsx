@@ -59,7 +59,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            {/* <div className='flex items-center space-x-6 bg-primary p-4'>
+            <div className='flex items-center space-x-6 bg-primary p-4'>
               <p className='text-6xl font-bold text-blue'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
@@ -70,7 +70,7 @@ const Services = () => {
                   technologies
                 </p>
               </div>
-            </div> */}
+            </div>
           </motion.div>
         </div>
       </div>

@@ -16,8 +16,8 @@ export const projectsData: ProjectTypes[] = [
     category: 'Multi-page',
     title: 'Pixelmagnet company website',
     description:
-      'Figma to react/nextjs, typescript, redux, sass, bem, slick slider, swiper slider, framer-motion, dark mode',
-    link: "https://pixelmagnet-nextjs.netlify.app"
+      'Figma to react/nextjs, typescript, redux, reduxjs/toolkit, sass, bem, slick slider, swiper slider, framer-motion, dark mode, axios, cors, mongodb',
+    link: "https://pixelmagnet-mongodb-client.netlify.app"
   },
   {
     id: 2,
