@@ -111,6 +111,15 @@ export const projectsData: ProjectTypes[] = [
   },
   {
     id: 12,
+    image: '/projects/blog-fullstack.png',
+    category: 'Others',
+    title: 'Blog website',
+    description:
+      'Front-end: react, redux-toolkit, axios react-toastify / Back-end: express, express-fileupload, jsonwebtoken, mongodb, mongoose, cors, nodemon',
+    link: "https://pixelmagnet-admin-mern-client.netlify.app"
+  },
+  {
+    id: 13,
     image: '/projects/your-meal.png',
     category: 'Others',
     title: 'Your meal food delivery website',
@@ -119,7 +128,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/your-meal/"
   },
   {
-    id: 13,
+    id: 14,
     image: '/projects/my-city-lawyer.png',
     category: 'Multi-page',
     title: 'Law company My city lawyer',
@@ -128,7 +137,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/my-city-lawyer/"
   },
   {
-    id: 14,
+    id: 15,
     image: '/projects/loft-house.png',
     category: 'Landing-page',
     title: 'Residential complex Loft house website',
@@ -137,7 +146,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/loft-house/"
   },
   {
-    id: 15,
+    id: 16,
     image: '/projects/panto-furniture-store.png',
     category: 'Landing-page',
     title: 'Panto furniture store website',
@@ -146,7 +155,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/panto-furniture-store/"
   },
   {
-    id: 16,
+    id: 17,
     image: '/projects/personal-blog.png',
     category: 'Multi-page',
     title: 'Personal blog website',
@@ -155,7 +164,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/personal-blog/"
   },
   {
-    id: 17,
+    id: 18,
     image: '/projects/luxtrader.png',
     category: 'Landing-page',
     title: 'Jewelery company Luxtrader website',
@@ -164,7 +173,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/luxtrader/"
   },
   {
-    id: 18,
+    id: 19,
     image: '/projects/barbershop-premium.png',
     category: 'Multi-page',
     title: 'Barbershop premium website',
@@ -173,7 +182,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/barbershop-premium/"
   },
   {
-    id: 19,
+    id: 20,
     image: '/projects/fitness.png',
     category: 'Landing-page',
     title: 'Fitness company website',
@@ -182,7 +191,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/fitness/"
   },
   {
-    id: 20,
+    id: 21,
     image: '/projects/growfy.png',
     category: 'Landing-page',
     title: 'Marketing company website',
@@ -191,7 +200,7 @@ export const projectsData: ProjectTypes[] = [
     link: "https://bogdanpavliv.github.io/growfy/"
   },
   {
-    id: 21,
+    id: 22,
     image: '/projects/california.png',
     category: 'Online-store',
     title: 'California store website',
